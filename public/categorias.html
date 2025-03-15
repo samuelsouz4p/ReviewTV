@@ -3,9 +3,11 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <meta name="viewport" content="width=device-width">
-  <title> Favoritos - ReviewTV</title>
-  <link href="favoritos.css" rel="stylesheet" type="text/css" />
+  <title>Categorias - ReviewTV</title>
+  <link href="categorias.css" rel="stylesheet" type="text/css" />
 
   <!--Icons-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
@@ -29,20 +31,20 @@
   <header>
     <nav class="nav-bar">
       <div class="logo">
-        <a href="/index.html">
+        <a href="/public/index.html">
           <img class="logotipo" src="imagens/REVIEWTV.png" width="250" heigth="125">
         </a> 
       </div>
 
       <div class="nav-list">
         <ul>
-          <li class="nav-item"><a href="/favoritos.html" class="nav-link"><button class="botao">Favoritos</button></a>
+          <li class="nav-item"><a href="/public/favoritos.html" class="nav-link"><button class="botao">Favoritos</button></a>
           </li>
-          <li class="nav-item"><a href="/categorias.html" class="nav-link"><button class="botao">Categorias</button></a>
+          <li class="nav-item"><a href="/public/categorias.html" class="nav-link"><button class="botao">Categorias</button></a>
           </li>
-          <li class="nav-item"><a href="/pedidos.html" class="nav-link"><button class="botao">Pedidos</button></a>
+          <li class="nav-item"><a href="/public/pedidos.html" class="nav-link"><button class="botao">Pedidos</button></a>
           </li>
-          <li class="nav-item"><a href="/sobre.html" class="nav-link"><button class="botao">Sobre</button></a></li>
+          <li class="nav-item"><a href="/public/sobre.html" class="nav-link"><button class="botao">Sobre</button></a></li>
         </ul>
       </div>
 
@@ -70,10 +72,10 @@
 
     <div class="mobile-menu">
       <ul>
-        <li class="nav-item"><a href="/favoritos.html" class="nav-link">Favoritos</a></li>
-        <li class="nav-item"><a href="/categorias.html" class="nav-link">Categorias</a></li>
-        <li class="nav-item"><a href="/pedidos.html" class="nav-link">Pedidos</a></li>
-        <li class="nav-item"><a href="/sobre.html" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="/public/favoritos.html" class="nav-link">Favoritos</a></li>
+        <li class="nav-item"><a href="/public/categorias.html" class="nav-link">Categorias</a></li>
+        <li class="nav-item"><a href="/public/pedidos.html" class="nav-link">Pedidos</a></li>
+        <li class="nav-item"><a href="/public/sobre.html" class="nav-link">Sobre</a></li>
       </ul>
 
       <div class="login-button">
@@ -84,34 +86,14 @@
 
   <nav class="conteudo">
     <div class="container">
-     <button><h1>Aqui estão seus favoritos!</h1></button>
-    <div class="movie-cards">
-        <!-- Card 01 -->
-        <div class="card">
-          <img src="capas/snk.jpg" alt="Attack on Titan" />
-          <div class="content">
-             <a href="/snk.html"><h1 class="name">Attack On Titan</h1></a>
-            <h3 class="infos">
-              <i class="fa-solid fa-star"></i> 4.0/5 | 2013-04-07 | 4 Temp
-            </h3>
-            <p class="short-desc">
-              Shonen, Ação, Fantasia Sombria, Pós-apocalítico, Drama , Mistério.
-            </p>
-            <div class="icons">
-              <a href="#"><i class="fa-solid fa-heart"></i></a>
-              <a href="#"><i class="fa-solid fa-bookmark"></i></a>
-              <a href="#"><i class="fa-solid fa-share"></i></a>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      <a href=""><button><h1 class="ação">Ação</h1></button></a>
+      <a href=""><button><h1 class="aventura">Aventura</h1></button></a>
+      <a href=""><button><h1 class="fantasia">Fantasia</h1></button></a>
+      <a href=""><button><h1 class="drama">Drama</h1></button></a>
+      <a href=""><button><h1 class="adolescente">Adolescente</h1></button></a>
+      <a href=""><button><h1 class="suspense">Suspense</h1></button></a>
     </div>
   </nav>
-  <div class="rodape">
-    <h2>Bem vindo(a) ao ReviewTV!</h2>
-   <p>Com ReviewTV, a sua jornada no mundo do entretenimento torna-se mais envolvente, informativa e socialmente conectada. Junte-se à comunidade, compartilhe suas opiniões e descubra novos favoritos ao explorar a riqueza do cinema, das séries e dos animes!</p>
-    </div>
-
+ 
     <script src="script.js"></script>
 </body>
