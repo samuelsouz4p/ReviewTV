@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+
+}
+
+.next {
+  right: 10px;
+
+}
+/* Estilo padrão para desktop */
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Estilo para hover no desktop */
+.slide:hover .caption {
+  opacity: 1;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    max-width: 90%;
+  }
+
+  .prev,
+  .next {
+    font-size: 16px;
+    padding: 8px;
+  }
+  .arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
+
+  .arrow:hover {
+    background-color: #555;
+  }
+
+  .slide:hover .caption {
+    opacity: 1;
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    transform: translateY(100%); /* Inicialmente, a descrição está fora da tela */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para o efeito hover */
+  }
+
+  .slide:hover .caption {
+    transform: translateY(0); /* Move a descrição para cima quando o mouse está sobre o slide */
+  }
+
+}

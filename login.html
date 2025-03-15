@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login - ReviewTV</title>
+  <link href="./login.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--Favicons-->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/favicons/android-chrome-512x512.png">
+  <link rel="icon" type="favicon.ico" sizes="" href="/favicons/favicon.ico">
+
+  <link rel="manifest" href="/site.webmanifest">
+  
+</head>
+
+<body>
+  <main id="container">
+      <form id="login_form">
+          <!-- FORM HEADER -->
+          <div id="form_header">
+              <h1>Login</h1>
+          </div>
+
+          <!-- SOCIAL MEDIA LINKS -->
+          <div id="social_media">
+              <!-- GOOGLE -->
+              <a href="#">
+                  <img src="imagens/google_logo.png" alt="Google logo">
+              </a>
+          </div>
+
+          <!-- INPUTS -->
+          <div id="inputs">
+              <!-- NAME -->
+              <div class="input-box">
+                  <label for="name">
+                      Nome
+                      <div class="input-field">
+                          <i class="fa-solid fa-user"></i>
+                          <input type="text" id="name" name="name">
+                      </div>
+                  </label>
+              </div>
+
+              <!-- EMAIL -->
+              <div class="input-box">
+                  <label for="email">
+                      E-mail
+                      <div class="input-field">
+                          <i class="fa-solid fa-envelope"></i>
+                          <input type="email" id="email" name="email">
+                      </div>
+                  </label>
+              </div>
+
+              <!-- PASSWORD -->
+              <div class="input-box">
+                  <label for="password">
+                      Senha
+                      <div class="input-field">
+                          <i class="fa-solid fa-key"></i>
+                          <input type="password" id="password" name="password">
+                      </div>
+                  </label>
+
+                  <!-- FORGOT PASSWORD -->
+                  <div id="forgot_password">
+                      <a href="#">
+                          Esqueceu sua senha?
+                      </a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- LOGIN BUTTON -->
+          <button type="submit" id="login_button">
+              Login
+          </button>
+      </form>
+  </main>
+</body>
+
+</html>

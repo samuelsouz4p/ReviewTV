@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="snk.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!--Favicons-->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/favicons/android-chrome-512x512.png">
+  <link rel="icon" type="favicon.ico" sizes="" href="/favicons/favicon.ico">
+
+  <link rel="manifest" href="/site.webmanifest">
+
+  <title>Attack on Titan - ReviewTV</title>
+</head>
+
+<body>
+  <body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <a href="/index.html">  
+          <img class="logotipo" src="imagens/REVIEWTV.png" width="250" heigth="125">
+        </a> 
+      </div>
+
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="/favoritos.html" class="nav-link"><button class="botao">Favoritos</button></a>
+          </li>
+          <li class="nav-item"><a href="/categorias.html" class="nav-link"><button class="botao">Categorias</button></a>
+          </li>
+          <li class="nav-item"><a href="/pedidos.html" class="nav-link"><button class="botao">Pedidos</button></a>
+          </li>
+          <li class="nav-item"><a href="/sobre.html" class="nav-link"><button class="botao">Sobre</button></a></li>
+        </ul>
+      </div>
+
+  <!--BARRA PESQUISA-->
+
+      <div class="search-box">
+        <input class="search-text" type="text" name="" placeholder="Buscar">
+        <a class="search-btn" href="#">
+          <span class="material-symbols-outlined">Search</span> </a>
+      </div>
+
+
+
+      <div class="login-button">
+        <button>
+          <a href="/login.html"> <span class="material-symbols-outlined">account_circle</span> login</a>
+        </button>
+      </div>
+
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="imagens/menu_white_36dp.svg" alt=""></button>
+      </div>
+    </nav>
+
+
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="/favoritos.html" class="nav-link">Favoritos</a></li>
+        <li class="nav-item"><a href="/categorias.html" class="nav-link">Categorias</a></li>
+        <li class="nav-item"><a href="/atividade.html" class="nav-link">Atividade</a></li>
+        <li class="nav-item"><a href="/pedidos.html" class="nav-link">Pedidos</a></li>
+      </ul>
+
+      <div class="login-button">
+        <button><a href="/login.html"> <span class="material-symbols-outlined">account_circle</span> login</a></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="conteudo">
+    <main>
+      <section>
+        <img src="backgrounds/logoSNK.png" alt="logo maze runner" class="logosnk">
+
+        <h3>Confira o Trailer:</h3>
+
+          <iframe class="Trailer" src="https://www.youtube.com/embed/JXyz-XoMqPA?si=4-1oEtP5Kngkm6Cd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          <h2>Sinopse</h2>
+          <p class="text">A humanidade vive dentro de cidades cercadas por três enormes muralhas que os protegem dos gigantescos humanóides devoradores de humanos chamados de Titãs, a história segue Eren Jaeger, que jura exterminar os Titãs, após um Titã causar a destruição de sua cidade natal e a morte de sua mãe.</p>
+      </section>
+    </main>
+  </div>
+
+  <div class="rodape">
+
+    <h1>Personagens</h1>
+
+    <div class="carousel-container">
+      <button class="arrow prev" onclick="changeSlide(-1)">&#9665;</button>
+      <div class="slide">
+        <img class="img_carrossel" src="/personagens.snk/batata.jpg" alt="Imagem 1">
+        <div class="caption_carrossel">Sasha Braus </div>
+      </div>
+
+      <div class="slide">
+        <img class="img_carrossel" src="/personagens.snk/cavalo.jpg" alt="Imagem 2">
+        <div class="caption_carrossel">Jean Kirstein</div>
+      </div>
+
+      <div class="slide">
+        <img  class="img_carrossel" src="/personagens.snk/eren.jpg" alt="Imagem 3">
+        <div class="caption_carrossel">Eren Yeager</div>
+      </div>
+
+      <div class="slide">
+        <img  class="img_carrossel" src="/personagens.snk/maravilhoso.jpg" alt="Imagem 4">
+        <div class="caption_carrossel">Levi Ackerman</div>
+      </div>
+
+      <div class="slide">
+        <img  class="img_carrossel" src="/personagens.snk/mikasa.jpg" alt="Imagem 5">
+        <div class="caption_carrossel">Mikasa Ackerman</div>
+      </div>
+
+      <div class="slide">
+        <img  class="img_carrossel" src="/personagens.snk/range.jpg" alt="Imagem 6">
+        <div class="caption_carrossel">Hange Zoe</div>
+      </div>
+
+
+      <!-- Adicione mais slides conforme necessário -->
+
+      <button class="arrow next" onclick="changeSlide(1)">&#9655;</button>
+    </div>
+
+    <h3 class="titulo_celular">Confira o Trailer:</h3>
+
+    <iframe class="Trailer_celular" src="https://www.youtube.com/embed/JXyz-XoMqPA?si=4-1oEtP5Kngkm6Cd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Comentários</h1>
+    <div class="comentar">
+      <form>
+        <input type="text" id="nome" name="nome" placeholder="Comentar">
+      </form>
+      <button>Enviar</button>
+    </div>
+
+    <section class="cards">
+
+      <!-- card 1 -->
+      <div class="card">
+        <img class="usuario" src="perfis/coxinha pedro.jpeg" alt="perfil">
+        <h3>Pedro Henrique</h3>
+
+        <div class="stars">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+        </div>
+
+        <p>Uma obra que começa com uma boa ideia envolta de um mistério que prende a atenção do telespectador em conjunto com as situações de tensão que lembram o sentimento de perigo constante da obra, também possuí uma boa animação que ajuda a memorizar as cenas marcantes na cabeça do telespectador.
+        </p>
+
+      </div>
+
+      <!-- card 2 -->
+      <div class="card">
+
+        <img class="usuario" src="perfis/icones.png" alt="perfil">
+        <h3>Yohanne Medeiros</h3>
+
+        <div class="stars">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+        </div>
+
+        <p>MUITO FODA, ROTEIRO INCRÍVEL, PERSONAGENS CATIVANTES, toda parte é importante e traz referência de vários episódios, ninguém se arrepende de assistir sério, assistam e chorem! 
+        </p>
+
+      </div>
+
+      <!-- card 3 -->
+      <div class="card">
+
+        <img class="usuario" src="perfis/icones.png" alt="perfil">
+        <h3>Mateus</h3>
+
+        <div class="stars">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+        </div>
+
+        <p>O anime é muito interessante em relação a história, a evolução dos personagens, em conexões no mundo vívido.
+        </p>
+
+      </div>
+
+      <!-- card 4 -->
+      <div class="card">
+
+        <img class="usuario" src="perfis/icones.png" alt="perfil">
+        <h3>Leonardo</h3>
+
+        <div class="stars">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+        </div>
+
+        <p>Ótimo Anime, animação incrível, personagens legais!!
+        </p>
+
+      </div>
+  </div>
+  </section>
+        <script src="script.js"></script>
+</body>
+
+</html>

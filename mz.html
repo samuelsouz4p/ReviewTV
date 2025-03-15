@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mz.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!--Favicons-->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/favicons/android-chrome-512x512.png">
+  <link rel="icon" type="favicon.ico" sizes="" href="/favicons/favicon.ico">
+
+  <link rel="manifest" href="/site.webmanifest">
+
+  <title>Maze Runner - ReviewTV</title>
+</head>
+
+<body>
+  <body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <a href="/index.html">  
+          <img class="logotipo" src="imagens/REVIEWTV.png" width="250" heigth="125">
+        </a> 
+      </div>
+
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="/favoritos.html" class="nav-link"><button class="botao">Favoritos</button></a>
+          </li>
+          <li class="nav-item"><a href="/categorias.html" class="nav-link"><button class="botao">Categorias</button></a>
+          </li>
+          <li class="nav-item"><a href="/pedidos.html" class="nav-link"><button class="botao">Pedidos</button></a>
+          </li>
+          <li class="nav-item"><a href="/sobre.html" class="nav-link"><button class="botao">Sobre</button></a></li>
+        </ul>
+      </div>
+
+  <!--BARRA PESQUISA-->
+
+      <div class="search-box">
+        <input class="search-text" type="text" name="" placeholder="Buscar">
+        <a class="search-btn" href="#">
+          <span class="material-symbols-outlined">Search</span> </a>
+      </div>
+
+
+
+      <div class="login-button">
+        <button>
+          <a href="/login.html"> <span class="material-symbols-outlined">account_circle</span> login</a>
+        </button>
+      </div>
+
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="imagens/menu_white_36dp.svg" alt=""></button>
+      </div>
+    </nav>
+
+
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="/favoritos.html" class="nav-link">Favoritos</a></li>
+        <li class="nav-item"><a href="/categorias.html" class="nav-link">Categorias</a></li>
+        <li class="nav-item"><a href="/atividade.html" class="nav-link">Atividade</a></li>
+        <li class="nav-item"><a href="/pedidos.html" class="nav-link">Pedidos</a></li>
+      </ul>
+
+      <div class="login-button">
+        <button><a href="/login.html"> <span class="material-symbols-outlined">account_circle</span> login</a></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="conteudo">
+    <main>
+      <section>
+        <img src="backgrounds/logomaze.png" alt="logo maze runner" class="logomaze">
+
+        <h3>Confira o Trailer:</h3>
+
+          <iframe class="Trailer"
+ src="https://www.youtube.com/embed/ql4epTOWdNg?si=2trJArrn_PwdltP1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+          <h2>Sinopse</h2>
+          <p class="text">Em um futuro apocalíptico, o jovem Thomas é escolhido para enfrentar o sistema. Ele acorda
+            dentro de um escuro elevador em movimento e não consegue se lembrar nem de seu nome. Na comunidade isolada
+            em que foi abandonado, Thomas conhece outros garotos que passaram pela mesma situação. Para conseguir
+            escapar, ele precisa descobrir os sombrios segredos guardados em sua mente e correr muito.</p>
+      </section>
+    </main>
+  </div>
+
+  <div class="rodape">
+
+    <h1>Elenco</h1>
+
+    <div class="carousel-container">
+      <button class="arrow prev" onclick="changeSlide(-1)">&#9665;</button>
+      <div class="slide">
+        <img class="img_carrossel" src="/personagens.mz/ava paige.jpg" alt="Imagem 1">
+        <div class="caption_carrossel">Patricia Clarkson</div>
+      </div>
+
+      <div class="slide">
+        <img class="img_carrossel" src="/personagens.mz/brenda.jpg" alt="Imagem 2">
+        <div class="caption_carrossel">Rosa Salazar</div>
+      </div>
+
+      <div class="slide">
+        <img  class="img_carrossel" src="/personagens.mz/gally.jpg" alt="Imagem 3">
+        <div class="caption_carrossel">Will Poulter</div>
+      </div>
+
+      <div class="slide">
+        <img  class="img_carrossel" src="/personagens.mz/minho.jpg" alt="Imagem 4">
+        <div class="caption_carrossel">Ki Hong Lee</div>
+      </div>
+
+      <div class="slide">
+        <img  class="img_carrossel" src="/personagens.mz/newt.jpg" alt="Imagem 5">
+        <div class="caption_carrossel">Thomas Brodie</div>
+      </div>
+
+      <div class="slide">
+        <img  class="img_carrossel" src="/personagens.mz/teresa.jpg" alt="Imagem 6">
+        <div class="caption_carrossel">Kaya Scodelario</div>
+      </div>
+
+      <div class="slide">
+        <img  class="img_carrossel" src="/personagens.mz/thomas.jpg" alt="Imagem 7">
+        <div class="caption_carrossel">Dylan O' Brien</div>
+      </div>
+
+      <!-- Adicione mais slides conforme necessário -->
+
+      <button class="arrow next" onclick="changeSlide(1)">&#9655;</button>
+    </div>
+
+      <h3 class="titulo_celular">Confira o Trailer:</h3>
+
+              <iframe class="Trailer_celular"
+     src="https://www.youtube.com/embed/ql4epTOWdNg?si=2trJArrn_PwdltP1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+    
+    <h1>Comentários</h1>
+    <div class="comentar">
+      <form>
+        <input type="text" id="nome" name="nome" placeholder="Comentar">
+      </form>
+      <button>Enviar</button>
+    </div>
+
+    <section class="cards">
+
+      <!-- card 1 -->
+      <div class="card">
+        <img class="usuario" src="perfis/coxinha pedro.jpeg" alt="perfil">
+        <h3>Pedro Henrique</h3>
+
+        <div class="stars">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+        </div>
+
+        <p>Um certo marco para o ano que foi lançado, uma ótima referência para gêneros de filmes com forte presença
+          adolescente acomponhado de um cenário distópico que chama atenção, uma obra sólida com fator replay garantido.
+        </p>
+
+      </div>
+
+      <!-- card 2 -->
+      <div class="card">
+
+        <img class="usuario" src="perfis/icones.png" alt="perfil">
+        <h3>Yohanne Medeiros</h3>
+
+        <div class="stars">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+        </div>
+
+        <p>Ficção muito top, a pessoa fica aperriada quase todo o filme, e traz muita curiosidade para continuar os outros filmes.
+        </p>
+
+      </div>
+
+      <!-- card 3 -->
+      <div class="card">
+
+        <img class="usuario" src="perfis/icones.png" alt="perfil">
+        <h3>José Felipe</h3>
+
+        <div class="stars">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+        </div>
+
+        <p>Um filme com uma premissa muito bacana porém não soube exatamente como desenvolver o seu potencial.
+        </p>
+
+      </div>
+
+      <!-- card 4 -->
+      <div class="card">
+
+        <img class="usuario" src="perfis/icones.png" alt="perfil">
+        <h3>Oséias</h3>
+
+        <div class="stars">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+          <img class="estrelas" src="estrelas/star.svg" alt="">
+        </div>
+
+        <p>Gostei muito do tema abordado no filme, é uma ótima ficção.
+        </p>
+
+      </div>
+  </div>
+  </section>
+        <script src="/script.js"></script>
+</body>
+
+</html>
