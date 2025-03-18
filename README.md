@@ -15,6 +15,13 @@
   - CSS: Estilização e layout responsivo.
   - JavaScript: Interatividade e manipulação do DOM.
 
+- **Backend**:
+  - Node.js: Ambiente de execução do JavaScript no servidor.
+  - Express: Framework para construção de APIs e gerenciamento de rotas.
+
+- **Banco de Dados**:
+  - JSON: Armazenamento de dados em formato JSON para simplicidade e facilidade de acesso.
+
 ## Como Executar o Projeto
 
 ### Pré-requisitos
@@ -52,6 +59,10 @@
 
    Abra o navegador e vá para `http://localhost:3000` para interagir com a aplicação.
 
+## Equipe 
+
+Equipe composta por Gustavo Brito, Samuel Souza e Vanessa Beatriz.
+
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorar o projeto.
@@ -59,4 +70,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 ## Licença
 
 Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+
+
 
